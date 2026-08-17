@@ -1,0 +1,56 @@
+# Optional: Airflow orchestration, kept in its own compose file since it's a
+# heavier stack than most local dev needs day-to-day. Bring it up only when you
+# want to see the DAG actually scheduled rather than run manually.
+#
+#   docker compose -f docker/docker-compose.yml -f docker/docker-compose.airflow.yml up -d
+#
+# Based on Apache Airflow's official docker-compose quick-start, trimmed to
+# single-node LocalExecutor (no Celery/Redis) since this pipeline has four
+# tasks, not four hundred — see docs/DECISIONS.md AD-016.
+
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.9.3
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@postgres/airflow
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    _PIP_ADDITIONAL_REQUIREMENTS: "boto3 pyspark pandas psycopg2-binary pydantic pydantic-settings tenacity requests"
+  volumes:
+    - ../dags:/opt/airflow/dags
+    - ../src:/opt/airflow/project/src
+    - ../spark_jobs:/opt/airflow/project/spark_jobs
+    - ../warehouse:/opt/airflow/project/warehouse
+    - ../pyproject.toml:/opt/airflow/project/pyproject.toml
+    - airflow-logs:/opt/airflow/logs
+  depends_on:
+    postgres:
+      condition: service_healthy
+
+services:
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - airflow db migrate && airflow users create --username admin --password admin
+        --firstname Admin --lastname User --role Admin --email admin@example.com
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+volumes:
+  airflow-logs:
