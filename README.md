@@ -158,9 +158,10 @@ backfill run executed outside Airflow entirely needs to read it. One JSON object
 durable state that satisfies both.
 
 **The watermark only advances after every file is durably written**, and never on a short read.
-That give dedup on `OBJECTID` in the Spark layer makes that safe (the source has no true case/ticket number — see `docs/DECISIONS.md` AD-011)..s at-least-once delivery — a crash mid-run means the next run re-reads the same window,
-and  The alternative (advance first)
-gives at-most-once, where a crash loses records permanently and silently.
+That gives at-least-once delivery — a crash mid-run means the next run re-reads the same window,
+and dedup on `OBJECTID` in the Spark layer makes that safe (the source has no true case/ticket
+number — see `docs/DECISIONS.md` AD-011). The alternative (advance first) gives at-most-once,
+where a crash loses records permanently and silently.
 
 **The endpoint is discovered, not hardcoded.** Denver's dataset page carries a stable Hub item id;
 the actual query host is an Esri-managed domain that can change when a service is republished. We
