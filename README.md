@@ -123,6 +123,10 @@ not just written and assumed correct:
   yourself before trusting it against a real AWS account.
 
 ---
+## Dashboard
+
+![Dashboard overview](docs/screenshots/dashboard-overview.png)
+![Request locations map](docs/screenshots/dashboard-map.png)
 
 ## Quickstart
 
