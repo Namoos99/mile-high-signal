@@ -1,0 +1,22 @@
+# Local development stack. Ingestion only, for now — Airflow, Postgres and Spark
+# get added as those components land.
+services:
+  localstack:
+    image: localstack/localstack:3.5
+    container_name: denver311-localstack
+    ports:
+      - "4566:4566"
+    environment:
+      SERVICES: s3
+      DEBUG: 0
+      PERSISTENCE: 1
+    volumes:
+      - localstack-data:/var/lib/localstack
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4566/_localstack/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  localstack-data:

@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Ingest: describe source schema",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "denver311.ingestion.run_ingest",
+      "args": ["--describe"],
+      "console": "integratedTerminal",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+    },
+    {
+      "name": "Ingest: dry run",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "denver311.ingestion.run_ingest",
+      "args": ["--dry-run"],
+      "console": "integratedTerminal",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+    },
+    {
+      "name": "Ingest: incremental",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "denver311.ingestion.run_ingest",
+      "console": "integratedTerminal",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+    }
+  ]
+}
