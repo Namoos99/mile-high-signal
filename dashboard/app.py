@@ -18,7 +18,7 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from dashboard.data import (  # noqa: E402
+from data import (  # noqa: E402
     map_points,
     requests_by_agency,
     requests_by_day,
@@ -26,6 +26,7 @@ from dashboard.data import (  # noqa: E402
     resolution_time_distribution,
     total_requests,
 )
+
 from denver311.common.config import get_settings  # noqa: E402
 
 st.set_page_config(page_title="Denver 311 Dashboard", layout="wide")
@@ -59,16 +60,28 @@ except Exception as e:  # noqa: BLE001 - a connection failure here is a user-fac
     )
     st.stop()
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 total = total_requests(conn)
 by_agency = requests_by_agency(conn)
 resolution = resolution_time_distribution(conn)
 
 col1.metric("Total requests (excl. internal)", f"{total:,}")
 col2.metric("Agencies represented", len(by_agency))
-col3.metric(
-    "Median resolution time",
-    f"{resolution['resolution_hours'].median():.1f} hrs" if len(resolution) else "N/A",
+
+# Denver 311 resolves a large share of requests on first contact (see the
+# First_Call_Resolution source field) — resolution_hours is exactly 0 for
+# those. A single median across all closed requests is dominated by these
+# instant closures and hides the meaningful number: how long the requests
+# that actually took real work took. Show both, honestly, rather than one
+# number that looks precise but tells you nothing useful.
+same_day = (resolution["resolution_hours"] == 0).sum()
+same_day_rate = same_day / len(resolution) if len(resolution) else 0
+multi_hour = resolution[resolution["resolution_hours"] > 0]
+
+col3.metric("Resolved same-call", f"{same_day_rate:.0%}")
+col4.metric(
+    "Median time (non-instant cases)",
+    f"{multi_hour['resolution_hours'].median():.1f} hrs" if len(multi_hour) else "N/A",
 )
 
 st.divider()
@@ -100,14 +113,20 @@ with trend_col:
         st.info("No data loaded yet.")
 
 with hist_col:
-    st.subheader("Resolution time distribution (closed requests)")
-    if len(resolution):
-        # Median, not mean, called out in the caption — resolution time is
-        # heavily right-skewed (see dashboard/data.py docstring), so a single
-        # mean number would mislead a viewer about the typical case.
-        st.bar_chart(pd.cut(resolution["resolution_hours"], bins=20).value_counts().sort_index())
+    st.subheader("Resolution time for non-instant requests")
+    st.caption(
+        "Excludes same-call closures (resolution_hours = 0), which otherwise "
+        "dominate the chart and hide the real distribution."
+    )
+    if len(multi_hour):
+        # Median, not mean — resolution time is heavily right-skewed even after
+        # excluding instant closures (see dashboard/data.py docstring), so a
+        # single mean number would mislead a viewer about the typical case.
+        binned = pd.cut(multi_hour["resolution_hours"], bins=20).value_counts().sort_index()
+        binned.index = binned.index.astype(str)
+        st.bar_chart(binned)
     else:
-        st.info("No closed requests yet.")
+        st.info("No non-instant closed requests yet.")
 
 st.divider()
 

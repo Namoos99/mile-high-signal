@@ -1,0 +1,201 @@
+OBJECTID,created_at,closed_at,is_closed,resolution_hours,Case_Status,Case_Source,Agency,Type,Topic,Neighborhood,Incident_Address_1,is_likely_internal,has_valid_coordinates
+374877130,2026-08-14,,False,,New,Email - Mayor's Office,Mayor's Office,,,,,True,False
+374877129,2026-08-14,,False,,New,PocketGov,311,,,,500 16th St,False,True
+374877131,2026-08-14,,False,,New,Email - DLCP Licenses,DLCP,,,,,True,False
+374877132,2026-08-14,,False,,New,Fax,311,,,,,True,False
+374877133,2026-08-14,,False,,New,Email - DLCP Applications,DLCP,,,,,True,False
+374877134,2026-08-14,,False,,New,PocketGov,311,,,,2639 17th St,False,True
+374877135,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Safety,,,,,False,False
+374877136,2026-08-13,,False,,Intake,PocketGov,Public Works,,,,8802 E 24th Pl,False,True
+374877138,2026-08-13,,False,,New,Email - Mayor's Office,Mayor's Office,,,,,True,False
+374877137,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,1371 N Willow St,False,True
+374877141,2026-08-13,,False,,New,City Council 10,City Council,,,,,False,False
+374877139,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877145,2026-08-13,,False,,New,PocketGov,311,,,,8778 E 24th Ave,False,True
+374877140,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877149,2026-08-13,,False,,New,PocketGov,311,,,,3452 S Fairfax St,False,True
+374877142,2026-08-13,,False,,Routed to Agency,Phone,Public Works,,,,5573 N Hannibal St,False,True
+374877154,2026-08-13,,False,,New,PocketGov,311,,,,8778 E 24th Ave,False,True
+374877143,2026-08-13,,False,,In-Progress,PocketGov,Safety,,,,4785 N Tejon St,False,True
+374877158,2026-08-13,,False,,Routed to Agency,PocketGov,Community Planning & Development,,,,3900 N Tennyson St,False,True
+374877144,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877159,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877146,2026-08-13,,False,,New,Email - City Clerk,Clerk & Recorder,,,,,True,False
+374877161,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877147,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,,False,False
+374877165,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877148,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Parks & Recreation,,,,,False,False
+374877172,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,External Agency,,,,,False,False
+374877150,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,,False,True
+374877173,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877151,2026-08-13,,False,,New,Email - DLCP Licenses,DLCP,,,,,True,False
+374877174,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877152,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877176,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877153,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877179,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877155,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877180,2026-08-13,,False,,Routed to Agency,Phone,Public Health & Environment,,,,,False,False
+374877156,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Email - DLCP Applications,DLCP,,,,,True,False
+374877181,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877157,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877187,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877160,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877204,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877162,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877205,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Community Planning & Development,,,,,False,False
+374877163,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877208,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,1601 N Lowell Blvd,False,True
+374877164,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877210,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Works,,,,,False,True
+374877166,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877217,2026-08-13,,False,,New,PocketGov,311,,,,747 N Humboldt St,False,True
+374877167,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Finance,,,,,False,False
+374877221,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877168,2026-08-13,,False,,Routed to Agency,PocketGov,Parks & Recreation,,,,5043 N Valentia St,False,True
+374877223,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,External Agency,,,,,False,False
+374877169,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877229,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877170,2026-08-13,,False,,New,PocketGov,Public Works,,,,1283 N Newport St,False,True
+374877232,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877171,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877237,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877175,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877239,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877177,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877241,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,751 N Santa Fe Dr,False,True
+374877178,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,1319 N Wolff St,False,True
+374877242,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Parks & Recreation,,,,,False,False
+374877182,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Email - DLCP Applications,DLCP,,,,,True,False
+374877243,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877183,2026-08-13,,False,,New,PocketGov,311,,,,4670 N Leaf Ct,False,True
+374877244,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877184,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877247,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877185,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,External Agency,,,,,False,False
+374877249,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877186,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877250,2026-08-13,,False,,New,PocketGov,311,,,,2600 Lawrence St,False,True
+374877188,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877253,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,7700 E Bayaud Ave,False,False
+374877189,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,400 E 7th Ave,False,True
+374877256,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877190,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877262,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,PocketGov,Safety,,,,300 N Fairfax St,False,True
+374877191,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Public Works,,,,,False,False
+374877264,2026-08-13,,False,,New,Email - DLCP Licenses,DLCP,,,,,True,False
+374877192,2026-08-13,,False,,New,Email - City Clerk,Clerk & Recorder,,,,,True,False
+374877265,2026-08-13,,False,,New,PocketGov,311,,,,1780 W Beekman Pl,False,True
+374877193,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877269,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877194,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877271,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,4705 N Andes St,False,True
+374877195,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877272,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Community Planning & Development,,,,,False,False
+374877196,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877276,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877197,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877277,2026-08-13,,False,,New,PocketGov,311,,,,5255 N Memphis St,False,True
+374877198,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877284,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877199,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877286,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877200,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877291,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Finance,,,,,False,False
+374877201,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,4760 S Wadsworth Blvd,False,True
+374877294,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877202,2026-08-13,,False,,In-Progress,PocketGov,Safety,,,,2627 W 27th Ave,False,True
+374877302,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877203,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877310,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Community Planning & Development,,,,,False,False
+374877206,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877311,2026-08-13,,False,,New,PocketGov,Public Works,,,,1700 N Monaco Street Pkwy,False,True
+374877207,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877312,2026-08-13,,False,,Routed to Agency,Phone,Public Health & Environment,,,,1140 S Vrain St,False,True
+374877209,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877313,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877211,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877317,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877212,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877318,2026-08-13,,False,,In-Progress,Phone,Safety,,,,1262 N Elizabeth St,False,True
+374877213,2026-08-13,2026-08-13,True,0.0,Closed - Scheduled,Phone,Community Planning & Development,,,,16221 E 40th Ave,False,True
+374877322,2026-08-13,,False,,New,Email - DLCP Hearings,DLCP,,,,,True,False
+374877214,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877324,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877215,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877326,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,,False,True
+374877216,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877327,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,509 S Lincoln St,False,True
+374877218,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877330,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877219,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877333,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877220,2026-08-13,,False,,New,PocketGov,311,,,,3929 N Tennyson St,False,True
+374877334,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877222,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,1009 N Grant St,False,True
+374877336,2026-08-13,,False,,New,City Council 10,City Council,,,,,False,False
+374877224,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Safety,,,,,False,False
+374877339,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Safety,,,,,False,False
+374877225,2026-08-13,,False,,New,PocketGov,Community Planning & Development,,,,2955 N Vallejo St,False,True
+374877354,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877226,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Public Health & Environment,,,,16221 E 40th Ave,False,True
+374877359,2026-08-13,,False,,New,PocketGov,311,,,,16075 E Warner Dr,False,True
+374877227,2026-08-13,,False,,Routed to Agency,Phone,DLCP,,,,1468 N King St,False,True
+374877364,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,3020 N Gilpin St,False,True
+374877228,2026-08-13,,False,,New,Email - DLCP Licenses,DLCP,,,,,True,False
+374877366,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Works,,,,,False,False
+374877230,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877368,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877231,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877379,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877233,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,,False,True
+374877381,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877234,2026-08-13,,False,,New,City Council 10,City Council,,,,,False,False
+374877386,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877235,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,1431 N Pearl St,False,True
+374877387,2026-08-13,2026-08-13,True,0.0,Closed - Scheduled,Phone,Community Planning & Development,,,,7700 E Colfax Ave,False,True
+374877236,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877388,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877238,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877391,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Clerk & Recorder,,,,,False,False
+374877240,2026-08-13,,False,,In-Progress,PocketGov,Safety,,,,4785 N Tejon St,False,True
+374877394,2026-08-13,,False,,New,PocketGov,311,,,,,False,True
+374877245,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,DLCP,,,,,False,False
+374877399,2026-08-13,,False,,New,PocketGov,Public Works,,,,20490 E 45th Ave,False,True
+374877246,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,1468 N King St,False,True
+374877402,2026-08-13,,False,,Routed to Agency,PocketGov,Community Planning & Development,,,,1500 S Osceola Way,False,True
+374877248,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877403,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Safety,,,,,False,False
+374877251,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,PocketGov,Public Works,,,,800 N Jackson St,False,True
+374877405,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877252,2026-08-13,,False,,New,City Council 10,City Council,,,,,False,False
+374877409,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877254,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877410,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Finance,,,,,False,False
+374877255,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877417,2026-08-13,2026-08-13,True,0.0,Closed - Other,Phone,Safety,,,,,False,False
+374877257,2026-08-13,,False,,Routed to Agency,Phone,DLCP,,,,,False,False
+374877424,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877258,2026-08-13,2026-08-13,True,0.0,Closed - Out of Jurisdiction,Phone,Safety,,,,,False,False
+374877425,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,External Agency,,,,,False,False
+374877259,2026-08-13,,False,,New,PocketGov,311,,,,,False,True
+374877427,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,3268 N Albion St,False,True
+374877260,2026-08-13,,False,,New,PocketGov,311,,,,1616 Market St,False,True
+374877429,2026-08-13,,False,,Routed to Agency,PocketGov,Community Planning & Development,,,,3890 N Dahlia St,False,True
+374877261,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877432,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,18605 Green Valley Ranch Blvd,False,True
+374877263,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877433,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,Finance,,,,,False,False
+374877266,2026-08-13,,False,,New,PocketGov,311,,,,,False,False
+374877434,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,DLCP,,,,,False,False
+374877267,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Public Health & Environment,,,,,False,False
+374877436,2026-08-13,2026-08-13,True,0.0,Closed - Transferred to External Agency,Phone,311,,,,,False,False
+374877268,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
+374877437,2026-08-13,,False,,New,Email - DLCP Submit,DLCP,,,,,True,False
+374877270,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,311,,,,,False,False
+374877442,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Public Health & Environment,,,,7700 E Colfax Ave,False,True
+374877273,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,PocketGov,Public Works,,,,1262 N Elizabeth St,False,True
+374877443,2026-08-13,2026-08-13,True,0.0,Closed - Cannot Complete,PocketGov,Safety,,,,10100 E 42nd Ave,False,True
+374877274,2026-08-13,2026-08-13,True,0.0,Closed - Approved,Phone,Safety,,,,2527 Larimer St,False,True
+374877447,2026-08-13,,False,,New,City Council 10,City Council,,,,,False,False
+374877275,2026-08-13,2026-08-13,True,0.0,Closed - Answer Provided,Phone,Safety,,,,,False,False
