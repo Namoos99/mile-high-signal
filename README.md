@@ -158,8 +158,8 @@ backfill run executed outside Airflow entirely needs to read it. One JSON object
 durable state that satisfies both.
 
 **The watermark only advances after every file is durably written**, and never on a short read.
-That gives at-least-once delivery — a crash mid-run means the next run re-reads the same window,
-and dedup on `Case_Number` in the Spark layer makes that safe. The alternative (advance first)
+That give dedup on `OBJECTID` in the Spark layer makes that safe (the source has no true case/ticket number — see `docs/DECISIONS.md` AD-011)..s at-least-once delivery — a crash mid-run means the next run re-reads the same window,
+and  The alternative (advance first)
 gives at-most-once, where a crash loses records permanently and silently.
 
 **The endpoint is discovered, not hardcoded.** Denver's dataset page carries a stable Hub item id;
@@ -179,7 +179,7 @@ Full reasoning for each: [`docs/DECISIONS.md`](docs/DECISIONS.md).
 This is built for one city's rolling feed — call it low tens of millions of rows a year. Here's
 where each choice breaks and what replaces it.
 
-**Incremental extraction.** A single watermark on `Requested_Datetime` misses records that are
+**Incremental extraction.** A single watermark on `Case_Created_Date` misses records that are
 *updated* after creation — a request opened Monday and closed Friday never re-lands. At small
 volume, a periodic full refresh papers over this. At scale you'd want either a second watermark on
 the modified-date column, or genuine CDC from the source system, which for a public API means
